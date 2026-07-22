@@ -1,0 +1,37 @@
+# Fourier Series Visualizer
+
+Interactive visualization tool for Fourier series decomposition, built in Python.
+
+Developed alongside ENGR 311 — Transform Calculus and Partial Differential Equations at Concordia University.
+
+## What it does
+
+- Visualizes Fourier series approximations for square, sawtooth, and triangle waves
+- Real-time harmonic decomposition with interactive slider (1 to 50 terms)
+- Frequency spectrum showing harmonic coefficients
+- Approximation error plot with RMS value
+- Convergence analysis — RMS error vs number of terms
+
+## Why it matters
+
+Fourier analysis is fundamental to aerospace engineering — used in vibration analysis, signal processing, structural dynamics, and control systems. This tool makes the math visual and interactive.
+
+## How to run
+
+```bash
+pip install matplotlib numpy
+python fourier_visualizer.py
+```
+
+## Controls
+
+- **Slider** — adjust number of harmonic terms (N)
+- **Square / Sawtooth / Triangle buttons** — switch between wave types
+
+## Tools
+
+Python, NumPy, Matplotlib
+
+## Skills demonstrated
+
+Numerical methods, frequency domain analysis, signal decomposition, Python programming, engineering visualization
