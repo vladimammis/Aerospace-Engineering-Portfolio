@@ -5,7 +5,7 @@ Interactive visualization tool for Fourier series decomposition built in Python.
 
 Developed alongside ENGR 311 — Transform Calculus and Partial Differential Equations at Concordia University.
 
-![Fourier Visualizer](preview.png)
+![fourier_visualizer](preview.png)
 
 ## Files
 
