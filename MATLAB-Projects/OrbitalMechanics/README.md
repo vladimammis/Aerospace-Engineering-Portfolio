@@ -3,7 +3,15 @@
 MATLAB simulation of elliptical orbits using Kepler's laws and the vis-viva equation. Compares ISS, GPS, and Geostationary satellites.
 
 ## Preview
-![Output](preview.png)
+![Figure 1 — Orbital Paths](KelperFigure1.png)
+![Figure 2 — Velocity vs True Anomaly](KelperFigure2.png)
+![Figure 3 — Satellite Comparison](KelperFigure3.png)
+
+## Files
+- [`KelperOrbital.m`](KelperOrbital.m) — main MATLAB script
+- [`KelperFigure1.png`](KelperFigure1.png) — orbital paths to scale
+- [`KelperFigure2.png`](KelperFigure2.png) — velocity vs true anomaly
+- [`KelperFigure3.png`](KelperFigure3.png) — comparative bar charts
 
 ## Satellites analyzed
 | Satellite | Altitude (km) | Period (hrs) | v_perigee (km/s) |
@@ -11,12 +19,6 @@ MATLAB simulation of elliptical orbits using Kepler's laws and the vis-viva equa
 | ISS (LEO) | 408 | 1.54 | 7.667 |
 | GPS (MEO) | 20,180 | 11.97 | 3.874 |
 | GEO | 35,786 | 24.00 | 3.075 |
-
-## Outputs
-- Orbital paths to scale with Earth
-- Velocity vs true anomaly (vis-viva equation)
-- Comparative bar charts: period, velocity, altitude
-- Specific orbital energy for each satellite
 
 ## Theory
 Vis-viva equation: v = √(GM(2/r - 1/a))
@@ -27,7 +29,7 @@ Eccentricity: e = (r_a - r_p)/(r_a + r_p)
 
 ## How to run
 ```matlab
-% Run orbital_mechanics.m
+% Run KelperOrbital.m
 % Modify satellites cell array to simulate different orbits
 ```
 
