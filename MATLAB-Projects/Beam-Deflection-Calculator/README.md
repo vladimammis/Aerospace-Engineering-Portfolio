@@ -3,21 +3,18 @@
 MATLAB script that calculates and plots shear force, bending moment, and deflection for three structural beam configurations.
 
 ## Preview
-![Output](preview.png)
+![Output](BeamFigure1.png)
+
+## Files
+- [`Beam_Deflection.m`](Beam_Deflection.m) — main MATLAB script
+- [`BeamFigure1.png`](BeamFigure1.png) — output figure
 
 ## Cases analyzed
 - Simply supported beam with central point load
 - Simply supported beam with uniform distributed load
 - Cantilever beam with point load at free end
 
-## Outputs
-- Shear force diagram
-- Bending moment diagram
-- Deflection curve (mm)
-- Max deflection and moment printed to command window
-
 ## Theory
-Based on Euler-Bernoulli beam theory.
 
 | Case | Max Deflection Formula |
 |------|----------------------|
@@ -32,7 +29,7 @@ L = 5;      % length (m)
 P = 10000;  % point load (N)
 w = 2000;   % distributed load (N/m)
 E = 200e9;  % Young's modulus (Pa)
-% Then run beam_deflection.m
+% Then run Beam_Deflection.m
 ```
 
 ## Tools
